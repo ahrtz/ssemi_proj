@@ -7,7 +7,7 @@ https://map.kakao.com/link/to/방이동 백제고분군,37.5078722,127.118159
 #https://map.kakao.com/link/to/카카오판교오피스,37.402056,127.108212
 departure <- "순라길"
 
-arrive <- "전기박물관"
+arrive <- "서울시민 광나루안전체험관"
 
 url1 <- str_c("https://map.kakao.com/?sName=",departure,"&eName=",arrive,"&target=bike")
 url1
