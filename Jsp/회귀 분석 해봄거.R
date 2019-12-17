@@ -15,7 +15,7 @@ timee * 시간변수 = 거리 -- > 위도로 바꾸고
 df_exp <- read.csv(file ="C:/Users/student/Desktop/ssemi_proj/Jsp/실험1.csv")
 View(df_exp)
 #최단 시간 구하기 
-head(df_exp$dis_diff)
+head(df_exp)
 
 plot(x=df_exp$dis_diff, y=df_exp$distance)
 res_dis=lm(df_exp$distance~df_exp$dis_diff)         
