@@ -13,6 +13,7 @@ timee * 시간변수 = 거리 -- > 위도로 바꾸고
 출발점 위도 +- 한 범위 에서 max 값 3개 정도 씩 뽑기
 
 df_exp <- read.csv(file ="C:/Users/student/Desktop/ssemi_proj/Jsp/실험1.csv")
+df_exp
 View(df_exp)
 #최단 시간 구하기 
 head(df_exp)
